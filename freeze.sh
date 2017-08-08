@@ -1,0 +1,1 @@
+python3 freeze_graph.py --input_graph=train_logs/minimal_graph.proto --input_checkpoint=best_checkpoints/checkpoint_ler_0.0193718112435_ --output_graph=frozen_graph.pb --output_node_names=decoded_indexes --input_binary=True
